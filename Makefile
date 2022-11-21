@@ -5,7 +5,7 @@ OBJECTS_MAIN=main.o
 OBJECTS_MAT=my_mat.o
 LIB_S_MAT=libmymats.a
 
-all: mains
+all: main.o $(OBJECTS_MAT) $(LIB_S_MAT)
 main.o:
 	$(CC) $(FLAGS) main.c -o $(OBJECTS_MAIN)
 
