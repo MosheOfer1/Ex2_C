@@ -15,9 +15,6 @@ $(OBJECTS_MAT):
 $(LIB_S_MAT):
 	$(AR) rcs $(LIB_S_MAT) $(OBJECTS_MAIN) $(OBJECTS_MAT)
 
-mains: $(OBJECTS_MAIN) $(OBJECTS_MAT) $(LIB_S_MAT)
-	$(CC) -o mains $(OBJECTS_MAIN) -L. $(LIB_S_MAT)
-
 .PHONY: clean all
 	
 clean:
