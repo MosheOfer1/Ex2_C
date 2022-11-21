@@ -21,4 +21,4 @@ connections: $(OBJECTS_MAIN) $(OBJECTS_MAT) $(LIB_S_MAT)
 .PHONY: clean all
 	
 clean:
-	rm -f *.o *.a "mains"
+	rm -f *.o *.a ""connections""
