@@ -24,4 +24,5 @@ int main() {
 			shortestPath(x, y);
 		}
 	}
+	return 0;
 }
